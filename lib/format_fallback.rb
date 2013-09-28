@@ -1,7 +1,7 @@
 require "format_fallback/version"
 
 module ActionView
-  class PathSet < Array
+  class ThePathSet < Array
 
     def find_with_default_template(path, prefix = nil, partial = false, details = {}, key = nil)
       if prefix == "layouts"
